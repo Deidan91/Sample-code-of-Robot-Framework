@@ -43,8 +43,8 @@ Open URL AutoHero
 
 User is on Advanced Search Page
     Sleep   5s
-    Click Element                       //button[contains(text(),'Erstzulassung')]
-    Wait Until Element Is Visible       //span[contains(text(),'Ab')]
+    Click Element                       //span[contains(text(),'Erstzulassung')]
+    Wait Until Element Is Visible       //span[contains(text(),'Beliebig')]
 
 User Select Filter for First registration
     Click Element                        //span[contains(text(),'Ab')]
